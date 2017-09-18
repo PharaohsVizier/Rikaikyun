@@ -24,24 +24,24 @@
     <preference name="disable-cursor" value="false" />
     <preference name="android-minSdkVersion" value="14" />
     <preference name="android-installLocation" value="auto" />
-    <plugin name="org.apache.cordova.battery-status" source="npm"/>
-    <plugin name="org.apache.cordova.camera" source="npm"/>
-    <plugin name="org.apache.cordova.media-capture" source="npm"/>
-    <plugin name="org.apache.cordova.console" source="npm"/>
-    <plugin name="org.apache.cordova.contacts" source="npm"/>
-    <plugin name="org.apache.cordova.device" source="npm"/>
-    <plugin name="org.apache.cordova.device-motion" source="npm"/>
-    <plugin name="org.apache.cordova.device-orientation" source="npm"/>
-    <plugin name="org.apache.cordova.dialogs" source="npm"/>
-    <plugin name="org.apache.cordova.file" source="npm"/>
-    <plugin name="org.apache.cordova.file-transfer" source="npm"/>
-    <plugin name="org.apache.cordova.geolocation" source="npm"/>
-    <plugin name="org.apache.cordova.globalization" source="npm"/>
-    <plugin name="org.apache.cordova.inappbrowser" source="npm"/>
-    <plugin name="org.apache.cordova.media" source="npm"/>
-    <plugin name="org.apache.cordova.network-information" source="npm"/>
-    <plugin name="org.apache.cordova.splashscreen" source="npm"/>
-    <plugin name="org.apache.cordova.vibration" source="npm"/>
+    <plugin spec="https://github.com/apache/cordova-plugin-battery-status.git" source="git"/>
+    <plugin spec="https://github.com/apache/cordova-plugin-camera.git " source="git"/>
+    <plugin spec="https://github.com/apache/cordova-plugin-media-capture.git" source="git"/>
+    <plugin spec="https://github.com/apache/cordova-plugin-console.git" source="git"/>
+    <plugin spec="https://github.com/apache/cordova-plugin-contacts.git" source="git"/>
+    <plugin spec="https://github.com/apache/cordova-plugin-device.git" source="git"/>
+    <plugin spec="https://github.com/apache/cordova-plugin-device-motion.git" source="git"/>
+    <plugin spec="https://github.com/apache/cordova-plugin-device-orientation.git" source="git"/>
+    <plugin spec="https://github.com/apache/cordova-plugin-dialogs.git" source="git"/>
+    <plugin spec="https://github.com/apache/cordova-plugin-file.git" source="git"/>
+    <plugin spec="https://github.com/apache/cordova-plugin-file-transfer.git" source="git"/>
+    <plugin spec="https://github.com/apache/cordova-plugin-geolocation.git" source="git"/>
+    <plugin spec="https://github.com/apache/cordova-plugin-globalization.git" source="git"/>
+    <plugin spec="https://github.com/apache/cordova-plugin-inappbrowser.git" source="git"/>
+    <plugin spec="https://github.com/apache/cordova-plugin-media.git" source="git"/>
+    <plugin spec="https://github.com/apache/cordova-plugin-network-information.git" source="git"/>
+    <plugin spec="https://github.com/apache/cordova-plugin-splashscreen.git" source="git"/>
+    <plugin spec="https://github.com/apache/cordova-plugin-vibration.git" source="git"/>
     <icon src="icon.png" />
     <icon gap:platform="android" gap:qualifier="ldpi" src="www/res/icon/android/icon-36-ldpi.png" />
     <icon gap:platform="android" gap:qualifier="mdpi" src="www/res/icon/android/icon-48-mdpi.png" />
