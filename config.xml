@@ -25,7 +25,7 @@
     <preference name="android-minSdkVersion" value="14" />
     <preference name="android-installLocation" value="auto" />
     <plugin spec="https://github.com/apache/cordova-plugin-battery-status.git" source="git"/>
-    <plugin spec="https://github.com/apache/cordova-plugin-camera.git " source="git"/>
+    <plugin spec="https://github.com/apache/cordova-plugin-camera.git" source="git"/>
     <plugin spec="https://github.com/apache/cordova-plugin-media-capture.git" source="git"/>
     <plugin spec="https://github.com/apache/cordova-plugin-console.git" source="git"/>
     <plugin spec="https://github.com/apache/cordova-plugin-contacts.git" source="git"/>
@@ -42,6 +42,12 @@
     <plugin spec="https://github.com/apache/cordova-plugin-network-information.git" source="git"/>
     <plugin spec="https://github.com/apache/cordova-plugin-splashscreen.git" source="git"/>
     <plugin spec="https://github.com/apache/cordova-plugin-vibration.git" source="git"/>
+    <plugin spec="https://github.com/zoxxx/PhoneGap-KeepScreenOn-plugin.git" source="git" />
+    <plugin spec="https://github.com/cogitor/PhoneGap-OrientationLock.git" source="git" />
+    <plugin spec="https://github.com/apache/cordova-plugin-battery-status.git" source="git" />
+    <plugin spec="https://github.com/apache/cordova-plugin-statusbar" source="git" />
+    <plugin spec="https://github.com/Indigoway/cordova-plugin-whitelist.git" source="git" />
+    <plugin spec="https://github.com/fiscal-cliff/phonegap-plugin-brightness.git" source="git" />
     <icon src="icon.png" />
     <icon gap:platform="android" gap:qualifier="ldpi" src="www/res/icon/android/icon-36-ldpi.png" />
     <icon gap:platform="android" gap:qualifier="mdpi" src="www/res/icon/android/icon-48-mdpi.png" />
